@@ -2,48 +2,117 @@ body {
   font-family: "Merriweather", serif;
   text-align: center;
   margin: 0;
+  color: #40514e;
 }
 
 div {
-  background-color: ;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 4.5em;
+  font-size: 5rem;
   font-family: "Sacramento", cursive;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #538857;
+  line-height: normal;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  color: #43a049;
+  font-size: 2.7rem;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #43a049;
+  font-size: 1.3rem;
+  word-spacing: 0.8px;
 }
 
-.head-introduction {
+h2.head-introduction {
   font-size: 120%;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  font-weight: normal;
 }
+
+h3.i-can-help {
+  font-size: 120%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.profile {
+  width: 40%;
+  margin: auto;
+}
+
+.mylogo {
+  border-radius: 50%;
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+
+.skill-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.skill-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+}
+
+/* clear the text from floating (wrap)
+
+.skill-des1 {
+  clear: left;
+}
+
+.skill-des2 {
+  clear: right;
+}
+
+*/
 
 .top-container {
-  background-color: #CEE5D0;
+  background-color: #cee5d0;
   position: relative;
   padding-top: 200px;
 }
 
 .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: ;
+  margin: 100px auto;
 }
 
 .bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: ;
+  background-color: #cee5d0;
+  padding: 3rem 0 2rem;
 }
 
 .pro {
@@ -53,15 +122,80 @@ h3 {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 200px;
+  top: 100px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   top: 320px;
 }
 
 .mountain {
   display: inline-block;
+}
+
+.contact-me {
+  padding: 0 0 40px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+a {
+  color: #43966d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  margin: 20px 30px;
+  padding: 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #e8eee9;
+  border-radius: 15%;
+  padding: 4px;
+}
+
+.copyright {
+  color: #43966d;
+  font-size: 0.8rem;
+  padding: 30px 0 0;
+}
+
+.heart {
+  color: red;
+}
+
+hr {
+  border: dotted #e8eee9 7px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.btn {
+  background: #6ab690;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #167445;
+  font-size: 15px;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
 }
